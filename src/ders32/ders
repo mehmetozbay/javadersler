@@ -1,0 +1,17 @@
+
+
+
+String a="ali"     yni hafiza
+
+String b=a+"Hasan" yeni hafiza
+
+String c=b+"Can"   yeni hafiza
+
+
+StringBuilder sb=new StringBuilder(); ilk degeri 16 kapasiteli bir hafiza aciyor
+
+
+sb.append("ali")   ali nin uzunlugu 3 kapasite 16 
+sb.append("Veli") aliveli  7<16
+sb.append("cabukgelali") 18>16 =>mevcut kapasitenin 2 katindan 2 fazla bir yer aciyor hafizada 
+yani yeni kapasite 2*16+2=34 
